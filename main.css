@@ -1,25 +1,24 @@
-body {
-  background-color: red;
-};
-#make-red {
-  background-color: red;
+#make-blue {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  border: 20px;
-  border-color: tomato
-};
-article {
-  color: blue
-};
-#make-blue { 
+  border-width: 20px;
+  border-style: inset;
+  border-color: tomato;
+}
+#make-red { 
   font-family: Arial, Helvetica, sans-serif;
-  border: 20px;
+  border-width: 20px;
+  border-style: groove;
   border-color: blue;
 }
 #make-yellow {
   font-family: 'Times New Roman', Times, serif;
-  border: 20px;
+  border-width: 20px;
+  border-style: inherit;
   border-color: darkgoldenrod;
 }
 h1 {
-  color: blueviolet;
+  color: black;
+}
+body {
+  background-color: rosybrown;
 }
